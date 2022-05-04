@@ -53,6 +53,6 @@ app.get('/', async (req, res) => {
 })
 
 
-app.listen(4000, () => {
-    console.log("App running at http://localhost:4000");
+app.listen(PORT, () => {
+    console.log(`App running at http://localhost:${PORT}`);
 })
